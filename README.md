@@ -14,6 +14,8 @@ Result: Pass
 
 
 
+
+
 Test Type: Create New Order - 2 (User 1)
 
 Function Call - addOrder(10)
@@ -25,6 +27,9 @@ Desired Outcome: Transaction doesn't fail and when an orderid is added to the li
 Actual Outcome: Order Added. getorderids shows added transaction with id 2.
 
 Result: Pass
+
+
+
 
 
 
@@ -42,6 +47,8 @@ Result: Pass
 
 
 
+
+
 Test Type: Accept Order (User 2)
 
 Function Call - acceptOrder(1)
@@ -53,6 +60,9 @@ Desired Outcome: Transaction Fails since payment has not been done.
 Actual Outcome: Transaction fails and error is thrown on console.
 
 Result: Pass
+
+
+
 
 
 
@@ -70,6 +80,9 @@ Result: Pass
 
 
 
+
+
+
 Test Type: Get order ids
 
 Function Call - getOrderIds()
@@ -81,6 +94,9 @@ Desired Outcome: Returns list of order ids in transit
 Actual Outcome: [1,2] (Payment not made for any order)
 
 Result: Pass
+
+
+
 
 
 
@@ -113,6 +129,9 @@ Result: Pass
 
 
 
+
+
+
 Test Type: Get order ids
 
 Function Call - getOrderIds()
@@ -124,6 +143,8 @@ Desired Outcome: Returns list of order ids in transit
 Actual Outcome: [1,2] (Payment has been made for order id 1 but it has not been accepted)
 
 Result: Pass
+
+
 
 
 
@@ -156,6 +177,9 @@ Actual Outcome: Transaction passes
 ```
 
 Result: Pass
+
+
+
 
 
 
