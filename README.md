@@ -1,6 +1,6 @@
 # BlockChain Assignment - 1
 
-###### Test Type: Create New Order - 1 (User 1)
+##### Test Type: Create New Order - 1 (User 1)
 
 Function Call - addOrder(100)
 
@@ -16,7 +16,7 @@ Result: Pass
 
 
 
-###### Test Type: Create New Order - 2 (User 1)
+##### Test Type: Create New Order - 2 (User 1)
 
 Function Call - addOrder(10)
 
@@ -34,7 +34,7 @@ Result: Pass
 
 
 
-###### Test Type: Accept Order (User 1)
+##### Test Type: Accept Order (User 1)
 
 Function Call - acceptOrder(1)
 
@@ -51,7 +51,7 @@ Result: Pass
 
 
 
-###### Test Type: Accept Order (User 2)
+##### Test Type: Accept Order (User 2)
 
 Function Call - acceptOrder(1)
 
@@ -66,10 +66,7 @@ Result: Pass
 
 
 
-
-
-
-###### Test Type: Pay For Order (User 2)
+##### Test Type: Pay For Order (User 2)
 
 Function Call - payForOrder(1)
 
@@ -87,7 +84,7 @@ Result: Pass
 
 
 
-###### Test Type: Get order ids
+##### Test Type: Get order ids
 
 Function Call - getOrderIds()
 
@@ -102,10 +99,7 @@ Result: Pass
 
 
 
-
-
-
-###### Test Type: Pay For Order (User 1)
+##### Test Type: Pay For Order (User 1)
 
 Function Call - payForOrder(1)
 
@@ -135,10 +129,7 @@ Result: Pass
 
 
 
-
-
-
-###### Test Type: Get order ids
+##### Test Type: Get order ids
 
 Function Call - getOrderIds()
 
@@ -153,11 +144,7 @@ Result: Pass
 
 
 
-
-
-
-
-###### Test Type: Accept Order (User 2)
+##### Test Type: Accept Order (User 2)
 
 Function Call - acceptOrder(1)
 
@@ -188,10 +175,7 @@ Result: Pass
 
 
 
-
-
-
-###### Test Type: Get order ids
+##### Test Type: Get order ids
 
 Function Call - getOrderIds
 
